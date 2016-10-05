@@ -34,7 +34,6 @@ function post(url, data, cb, failCb, proxy = false) {
     writeres('');
 }
 function writeok() {
-    writeres('OK!');
     Materialize.toast('OK!', 4000);
 }
 function writeres(cos) {
